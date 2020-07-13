@@ -40,7 +40,7 @@
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <h2 style="color:whitesmoke;">Azure DB Proof of Concept!</h2>
+                <h2 style="color:whitesmoke;">Azure DB Proof of Concept</h2>
             </div>
         </div>
         <div class="container body-content">
