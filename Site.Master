@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> Azure DB POC</title>
+    <title><%: Page.Title %> Azure DB POC (Local Dedicated Reads)</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -40,7 +40,7 @@
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <h2 style="color:whitesmoke;">Azure DB Proof of Concept</h2>
+                <h2 style="color:whitesmoke;">Azure DB POC (Local Dedicated Reads)</h2>
             </div>
         </div>
         <div class="container body-content">
