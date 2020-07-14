@@ -21,7 +21,7 @@ namespace azpoc
         }
     }
 
-    public partial class _Default : Page
+    public partial class Default : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -32,6 +32,8 @@ namespace azpoc
                 connstr_r.Text = GetDBServer(false);
                 //Web app Host
                 webserver.Text = System.Web.Hosting.HostingEnvironment.ApplicationHost.GetSiteName();
+
+                //Load Gridview with the contents of Employee table
                 this.BindGrid();
             }
         }

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="azpoc._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="azpoc.Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div>
@@ -9,7 +9,7 @@
                 <br />
             <asp:Label ID="Label2" runat="server" Text="Last Name: " Width="100"></asp:Label><asp:TextBox ID="lname" runat="server"></asp:TextBox>
                 <br />
-            <asp:Label ID="Label3" runat="server" Text="City : " Width="100" ></asp:Label><asp:TextBox ID="city" runat="server"></asp:TextBox>
+            <asp:Label ID="Label3" runat="server" Text="City: " Width="100" ></asp:Label><asp:TextBox ID="city" runat="server"></asp:TextBox>
                 <br />
             <asp:Label ID="Label4" runat="server" Text="State: " Width="100"></asp:Label><asp:TextBox ID="state" runat="server"></asp:TextBox>
             </div>
