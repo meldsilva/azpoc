@@ -12,12 +12,14 @@
             <asp:Label ID="Label3" runat="server" Text="City: " Width="100" ></asp:Label><asp:TextBox ID="city" runat="server"></asp:TextBox>
                 <br />
             <asp:Label ID="Label4" runat="server" Text="State: " Width="100"></asp:Label><asp:TextBox ID="state" runat="server"></asp:TextBox>
+                
             </div>
             <div>
-
             <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" Width="100" />
             <asp:Button ID="clear" runat="server" Text="Clear Input" OnClick="clear_Click" Width="100"/>
             <asp:Button ID="refresh" runat="server" Text="Refresh" OnClick="refresh_Click" Width="100" />
+            <asp:Label ID="Label9" runat="server" Text="" Width="50"></asp:Label>
+            <asp:Label ID="rowcount" runat="server" Text="" Width="202px" Font-Bold="True" Font-Size="Larger" Font-Overline="False" Height="0px"></asp:Label>
 
             </div>
         </div>
